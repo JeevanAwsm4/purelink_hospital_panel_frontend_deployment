@@ -1,0 +1,115 @@
+.c-wrapper{
+    padding: 40px;
+}
+.c-wrapper .new{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom : 5rem;
+}
+.c-wrapper .new .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.c-wrapper .new .top h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.c-wrapper .new .top h4 span{
+    color: #5e5e5e;
+}
+.c-wrapper .new .below .top{
+    align-items: center;
+}
+.c-wrapper .new .below .top .left h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.c-wrapper .below .left h1.flex{
+    display: flex;
+    align-items: center;
+}
+.c-wrapper .below .left h1 img{
+    margin-left: 10px;
+}
+.c-wrapper .new .below .top .right h3{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.c-wrapper .new .below .top .right h3 img{
+    margin-left: 5px;
+}
+.c-wrapper .new .below .below table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+}
+.c-wrapper .new .below .below table th{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd !important;
+    background: #5e3fe3;
+    color: #fff;
+    font-weight: 600;
+}
+.c-wrapper .new .below .below table td{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #bdbdbd !important;
+}
+.c-wrapper .new .below .below table tr:nth-child(even) {background-color: #f2f2f2;}
+/* .c-wrapper .new .below .below table tr:last-child td{
+    border-bottom: 1px solid #000 !important;
+} */
+.c-wrapper .new .below .below h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.c-wrapper .new .below .below h1 span{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.c-wrapper .old{
+    margin-top: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 30px;
+}
+.c-wrapper .old .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.c-wrapper .old .top h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.c-wrapper .old .top h4 span{
+    color: #5e5e5e;
+}
+.c-wrapper .old .below{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-wrapper .old .below .left h1{
+    font-size: 17px;
+    font-weight: 600;
+}
+.c-wrapper .old .below .right span{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5e5e5e;
+}
+.c-wrapper .old .below .right span img{
+    margin-left: 5px;
+}

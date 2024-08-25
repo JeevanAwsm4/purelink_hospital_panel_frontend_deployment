@@ -1,0 +1,83 @@
+#s-false {
+
+}
+#s-false .wrapper {
+    text-align: center;
+
+}
+#s-false .wrapper .s-false-top {
+    margin-top: 3%;
+
+}
+#s-false .wrapper .s-false-top h1 {
+
+}
+#s-false .wrapper .s-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin : 0 auto;
+    margin-top: 7%;
+}
+#s-false .wrapper .s-options .subscription {
+    border-radius : 10px;
+    border : 1px solid;
+    height : 60%;
+    width : 25%;
+    text-align: left;
+
+}
+#s-false .wrapper .s-options .subscription div.s-banner {
+
+}
+#s-false .wrapper .s-options .subscription div.s-banner img {
+    height: 5%;
+    width: 100%;
+}
+#s-false .wrapper .s-options .subscription .subscription-wrapper {
+    padding : 30px 50px 50px 70px;
+}
+#s-false .wrapper .s-options .subscription .s-title {
+    color : #000;
+    font-size: 13px;
+    margin: 0px;
+}
+#s-false .wrapper .s-options .subscription .s-price {
+    font-size: 28px;
+    font-weight: 700;
+    margin : 0px;
+    margin-top : 0.1em;
+
+}
+#s-false .wrapper .s-options .subscription ul.s-features-list {
+    margin-top: 3em;
+    padding : 0px;
+}
+#s-false .wrapper .s-options .subscription ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+#s-false .wrapper .s-options .subscription ul.s-features-list li div.s-circle {
+    height : 10px;
+    width : 10px;
+    background-color: #000;
+    border-radius : 50%;
+    margin-right: 7px;
+}
+#s-false .wrapper .s-options .subscription button.s-subscribe-button {
+    margin-top: 3em;
+    width : 90%;
+    padding : 15px 20px;
+    border-radius: 25px;
+    background: #fff;
+
+}
+#s-false .wrapper .s-authenticated-as {
+
+}
+#s-false .wrapper .s-authenticated-as h1 {
+    margin-top: 5%;
+    margin-left: 40%; 
+    font-size: 20px; 
+}
+  

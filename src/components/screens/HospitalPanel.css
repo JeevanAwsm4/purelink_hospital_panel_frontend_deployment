@@ -1,0 +1,121 @@
+aside.panel{
+    width: 100%;
+    max-width: 18%;
+    height: 100vh;
+    background: #FFF;
+    border: 1px solid #9f9f9f;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    text-align: center;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+aside.panel h1.top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+aside.panel h1.top img{
+
+}
+aside.panel h1.top p{
+    color: #000;
+}
+aside.panel nav{
+    padding: 0 20px;
+    padding-right: 17px;
+}
+aside.panel nav ul{
+    display: flex;
+    flex-direction: column;
+}
+aside.panel nav ul li{
+    margin-bottom: 20px;
+    border: 1px solid #5e3fe3;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+}
+aside.panel nav ul li:last-child{
+    
+}
+aside.panel nav ul li a{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    opacity: 0.8;
+}
+aside.panel nav ul li a:hover{
+    opacity: 1;
+    font-weight: 600;
+}
+aside.panel nav ul li a.active{
+    opacity: 1;
+    font-weight: 600;
+}
+aside.panel nav ul li a img{
+    width: 20px;
+}
+aside.panel nav ul li a p{
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    color: #5e3fe3;
+}
+
+
+#home{
+
+}
+#home header{
+    padding: 40px;
+    background: #f9f9f9;
+}
+#home header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home header ul li{
+
+}
+#home header ul li h1{
+    font-size: 30px;
+}
+#home header ul li p{
+    font-size: 15px;
+}
+#home header ul li label{
+    font-size: 17px;
+    border: none;
+    background: #ededed;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7c7c7c;
+    cursor: pointer;
+    border-radius: 6px;
+}
+#home header ul li input[type=file]{
+    display: none;
+}
+#home header ul li a{
+
+}
+#home header ul li a img{
+
+}
+#home header ul li button{
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}

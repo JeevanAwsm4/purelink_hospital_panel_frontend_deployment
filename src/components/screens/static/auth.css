@@ -1,0 +1,170 @@
+.auth-page {
+
+}
+.auth-page .wrapper {
+    margin: auto;
+    max-width: 80%;  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.auth-page .wrapper .left .above img {
+    width: 50%;
+}
+.auth-page .wrapper .left .above h1.welcome-message {
+    font-size: 30px;
+    max-width:300px;
+    margin-top: 2%;
+
+}
+.auth-page .wrapper .left .below {
+
+}
+.auth-page .wrapper .left .below h1.info {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.auth-page .wrapper .left .below div.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width :80%;
+
+}
+.auth-page .wrapper .left .below div.social a {
+
+}
+.auth-page .wrapper .left .below div.social a img {
+
+}
+.auth-page .wrapper .right {
+    border : 2px solid #5e3fe3;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+.signup-page .wrapper .right {
+    width: 60%;
+}
+.auth-page .wrapper .right .form-parent {
+
+}
+.auth-page .wrapper .right .form-parent .form-wrapper {
+    text-align: center;
+    display:block;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper div.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper div.title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.login {
+    /* overflow: visible !important; */
+
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.login div.input-group {
+    /* overflow: visible !important; */
+    margin-bottom: 20px;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.login div.input-group input {
+    /* border : none; */
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #5e3fe3;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.login div.submit {
+    margin-top: 30%;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.login div.submit button {
+    border:none;
+    width: 100%;
+    background: #5e3fe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.login div.submit img {
+
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup {
+    
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup .container {
+    display: flex;
+    justify-content: space-between;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup .container .sub-left{
+    width: 50%;
+    margin-right: 20px;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup .container .sub-right {
+    width: 50%;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup div.input-group {
+    margin-bottom: 20px;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup div.input-group input {
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #5e3fe3;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup div.submit {
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup div.submit button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #5e3fe3;
+    border:none;
+    background: #5e3fe3;
+    color: #fff;
+    padding:20px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup div.submit button a{
+    color: #fff;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper form.signup div.submit img {
+
+}
+.auth-page .wrapper .right .form-parent .form-wrapper p {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight:600;
+}
+.signup-page .wrapper .right .form-parent .form-wrapper p {
+    font-size: 15px;
+    margin-top: 3%;
+    font-weight:600;
+}
+.auth-page .wrapper .right .form-parent .form-wrapper span {
+    font-size: 15px;
+    margin-top: 20%;
+    font-weight:600;
+    color: #5e3fe3;
+}

@@ -1,0 +1,137 @@
+div.bax {
+	padding-bottom: 37px;
+	padding-right: 0px;
+	margin-left:30px;
+}
+div.bax div.box1 {
+	border-radius : 10px !important;
+	margin-top: 100px;
+	padding : 40px;
+}
+div.bax h3.datee{
+	color: #616161;
+    font-weight: 600;
+}
+div.bax h3.requestt{
+	color: #616161;
+	font-weight: 600;		
+}
+div.bax div.inbax{
+	margin-top: 40px;
+	text-align:center;
+} 
+div.bax div.inbax span.patient{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	border: 1px solid #b6b6b6;
+	margin-bottom: 30px;
+	padding : 7px;
+	
+} 
+div.bax div.inbax span.patient h5{
+	color: #000;
+	margin-left: 20px;
+	margin-top:0px !important;
+	margin-bottom : 0px !important;
+	font-weight:700;
+	font-size:18px;
+} 
+div.bax div.inbax span.patient .patient_name {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width : 20%;
+} 
+div.bax div.inbax span.patient .door_sign {
+	width : 20%;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+} 
+div.bax div.inbax span.patient h3{
+    font-weight:700;
+	margin : 0px;
+	color : #000;
+} 
+div.bax div.inbax span.patient h4{
+	padding: 0px;
+	margin-right: 10px;
+}
+div.bax div.inbax span.patient button.report11{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	border: 1px solid;
+	border-radius:18px;
+	font-size: 15px !important;
+	background: #D92802;
+	color:#fff;
+	padding:10px 25px 10px 25px;
+	margin-right:20px;
+} 
+div.bax div.inbax span.patient button.report11 img {
+	height : 15px;
+	margin-left: 10px;
+} 
+div.bax div.inbax span.patient h4{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin : 0px;
+}
+div.negative{
+	border:1px solid #D92802;
+	border-radius:200px;
+	width:15px;
+	height:15px;
+	background-color:#D92802 ;
+	align-items:center;
+}
+div.warning{
+	border:1px solid #E0D813;
+	border-radius:200px;
+	width:15px;
+	height:15px;
+	background-color:#E0D813 ;
+	align-items:center;
+}
+div.positive {
+	border:1px solid #43A047;
+	;
+	border-radius:200px;
+	width:15px;
+	height:15px;
+	background-color:#43A047 ;
+	align-items:center;
+
+}
+div.indication{
+	padding-left:5px;
+}
+h4.warning{
+	color:#E0D813;
+}
+h4.positive{
+	color:#43A047;
+}
+h4.negative{
+	color:#D92802;
+} 
+div.bax div.box1{
+	border:1px solid #000;
+	border-radius:15px;
+	align-items:center;
+} 
+div.bax div.box1 .did{
+	display: flex;
+	justify-content: space-between;
+} 
+div.bax div.box2{
+	border:1px solid #000;
+	border-radius:15px;
+}
+span.patient{
+	position: relative;
+}

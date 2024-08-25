@@ -1,0 +1,41 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+
+}
+.body .wrapper {
+    max-width:900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.body .wrapper .left {
+
+}
+.body .wrapper .left .wrapper {
+
+}
+.body .wrapper .left .wrapper img.logo {
+    margin-right: 1rem;
+    
+}
+.body .wrapper .left .wrapper img.line {
+    margin-right: 1rem;
+    
+}
+.body .wrapper .right {
+
+}
+.body .wrapper .right .wrapper {
+    
+}
+.body .wrapper .right .wrapper .info {
+    
+}
+.body .wrapper .right .wrapper .info span {
+    color : #5e3fe3;
+}
