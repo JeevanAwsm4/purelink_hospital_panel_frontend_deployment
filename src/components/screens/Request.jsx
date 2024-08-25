@@ -3,6 +3,7 @@ import axios from 'axios';
 import { UserContext } from '../../App';
 import './static/request.css';
 import Swal from 'sweetalert2';
+import { BASE_URL } from '../../axiosConfig'; 
 
 export default function Request() {
     const [donationType, setDonationType] = useState('');
@@ -20,7 +21,7 @@ export default function Request() {
         e.preventDefault();
         const datetime = `${date} ${time}`
 
-        axios.post('http://localhost:8000/api/v1/panel/create_request/', {
+        axios.post(`${BASE_URL}/panel/create_request/`, {
             type_of_donation: donationType,
             blood_group: bloodGroup,
             datetime: datetime,

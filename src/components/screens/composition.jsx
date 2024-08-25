@@ -4,6 +4,7 @@ import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import axios from 'axios';
 import { UserContext } from '../../App'; // Adjust the import path
 import './static/composition.css';
+import { BASE_URL } from '../../axiosConfig';
 
 Chart.register(ArcElement, Tooltip, Legend);
 
@@ -16,7 +17,7 @@ const LiveChart = () => {
 
   useEffect(() => {
     if (userData?.access) {
-      axios.get('http://localhost:8000/api/v1/panel/city_composition_data/', {
+      axios.get(`${BASE_URL}/panel/city_composition_data/`, {
         headers: {
           Authorization: `Bearer ${userData.access}`
         }
