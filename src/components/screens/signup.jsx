@@ -121,7 +121,26 @@ export default function Signup(){
                                         <input type="text" class="input" value={adress} onChange={(e) => setAddress(e.target.value)} placeholder="Enter Address" required />
                                     </div>
                                     <div class="input-group">
-                                        <input class="input" value={district} onChange={(e) => setDistrict(e.target.value)} placeholder="Enter District" required />
+                                          <div class="input-group">
+  <select class="input" value={district} onChange={(e) => setDistrict(e.target.value)} required>
+    <option value="" disabled>Select District</option>
+    <option value="1">Kollam</option>
+    <option value="2">Ernakulam</option>
+    <option value="3">Kasargod</option>
+    <option value="4">Wayanad</option>
+    <option value="5">Kozhikode</option>
+    <option value="6">Thiruvananthapuram</option>
+    <option value="7">Pathanamthitta</option>
+    <option value="8">Kottayam</option>
+    <option value="9">Idukki</option>
+    <option value="10">Alappuzha</option>
+    <option value="11">Thrissur</option>
+    <option value="12">Palakkad</option>
+    <option value="13">Malappuram</option>
+    <option value="14">Kannur</option>
+  </select>
+</div>
+            
                                     </div>
                                 
                                 </div>
