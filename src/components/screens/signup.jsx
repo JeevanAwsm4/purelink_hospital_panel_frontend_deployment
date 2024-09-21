@@ -149,7 +149,7 @@ export default function Signup(){
                                         <button type="submit" class="btn">Login Securely <img src={Security} alt="login" /></button> 
                                     </div>
                                 </form>
-                                <p>Don't have a account? Register <span><Link to="/signup">here.</Link></span></p>
+                                <p>Already Registered? Login <span><Link to="/login">here.</Link></span></p>
                             </div>
                         </div>
                     </div>
