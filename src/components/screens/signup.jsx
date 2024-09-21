@@ -121,7 +121,6 @@ export default function Signup(){
                                         <input type="text" class="input" value={adress} onChange={(e) => setAddress(e.target.value)} placeholder="Enter Address" required />
                                     </div>
                                     <div class="input-group">
-                                          <div class="input-group">
   <select class="input" value={district} onChange={(e) => setDistrict(e.target.value)} required>
     <option value="" disabled>Select District</option>
     <option value="1">Kollam</option>
@@ -139,8 +138,6 @@ export default function Signup(){
     <option value="13">Malappuram</option>
     <option value="14">Kannur</option>
   </select>
-</div>
-            
                                     </div>
                                 
                                 </div>
