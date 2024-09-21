@@ -82,6 +82,16 @@
     border-radius: 6px;
     border: 1px solid #5e3fe3;
 }
+.auth-page .wrapper .right .form-parent .form-wrapper form.login div.input-group select {
+    /* border : none; */
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #5e3fe3;
+}
 .auth-page .wrapper .right .form-parent .form-wrapper form.login div.submit {
     margin-top: 30%;
 }
